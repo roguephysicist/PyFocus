@@ -53,8 +53,9 @@ def draw_rectangle(overlay, key, color):
 
 FILE = sys.argv[1]
 OUT = FILE.split('.')[0] + '_afpoints.jpg'
+SCALE = 0.25
 
-IMG = create_img_object(FILE, 0.25) # returns a pillow image object, resized by some scale
+IMG = create_img_object(FILE, SCALE) # returns a pillow image object, resized by some scale
 WORKSIZE = IMG.size
 ACTIVE_POINTS = get_active_points(FILE) # returns a list with the active AF point names
 

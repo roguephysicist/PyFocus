@@ -38,7 +38,8 @@ locations = {
     'Upper-right':  (0.647,0.341,['square']),
     'Mid-right':    (0.647,0.500,['square']),
     'Lower-right':  (0.647,0.659,['square']),
-    'Right':        (0.788,0.500,['rectangle'])
+    'Right':        (0.788,0.500,['rectangle']),
+    'None':         (0.000,0.000,['hole'])
 }
 
 interface = {
